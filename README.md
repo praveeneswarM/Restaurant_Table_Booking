@@ -52,9 +52,10 @@ Restaurant_Table_Booking/
 ---
 ## ⚙️ Setup Instructions
 
-### Backend Setup (Spring Boot + MySQL)
+**Backend Setup (Spring Boot + MySQL)**
 
-  ### DB
+  **DB**
+  
     CREATE DATABASE restaurantdb;
     
     backend/Restaurant/src/main/resources/application.properties:
@@ -64,21 +65,22 @@ Restaurant_Table_Booking/
       spring.datasource.password=yourpassword
       spring.jpa.hibernate.ddl-auto=update
 
-  ### Run the backend server
+  **Run the backend server**
   
     cd backend/Restaurant
     ./mvnw spring-boot:run
 
-  ### Backend will run at:
+  **Backend will run at:**
+  
     http://localhost:8080
 
-### Frontend Setup (React + Vite + Tailwind CSS)
+**Frontend Setup (React + Vite + Tailwind CSS)**
 
     cd frontend
     npm install
     npm run dev
     
-  # Frontend will run at:
+ **Frontend will run at:**
 
     http://localhost:5173
     
