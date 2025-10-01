@@ -21,7 +21,6 @@ Built with **React (Vite + Tailwind CSS)** on the frontend and **Spring Boot + M
 **Frontend**
 - React (Vite)
 - Tailwind CSS
-- Axios (API calls)
 
 **Backend**
 - Spring Boot (Java)
