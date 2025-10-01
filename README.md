@@ -34,20 +34,7 @@ Built with **React (Vite + Tailwind CSS)** on the frontend and **Spring Boot + M
 ---
 ## 📂 Project Structure
 
-Restaurant_Table_Booking/
-│
-├── frontend/ # React + Vite + Tailwind
-│ ├── public/
-│ ├── src/
-│ ├── package.json
-│ └── vite.config.js
-│
-├── backend/Restaurant/ # Spring Boot backend
-│ ├── src/
-│ ├── pom.xml
-│ └── mvnw / mvnw.cmd
-│
-└── README.md
+![Project Structure](./assets/project-structure.png)
 
 ---
 ## ⚙️ Setup Instructions
