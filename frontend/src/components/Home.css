@@ -1,0 +1,101 @@
+@reference '../index.css';
+
+.home_container{
+    @apply bg-no-repeat md:w-screen md:ml-50 overflow-hidden md:h-[650px] h-[550px] bg-cover bg-center; background-image:url('Home_bg.webp');
+}
+
+.home_text{
+    @apply text-5xl md:px-10 md:pt-56 font-bold text-[#bb7d3c] px-7 pt-40
+}
+
+.home_text_para{
+    @apply  md:px-10.5 md:text-lg md:py-5 text-[#bb7d3c] px-7 py-3
+}
+
+.home_menu{
+    @apply  md:px-6 md:py-2 bg-[#bb7d3c] text-[#fff7f7] text-sm shadow-sm px-4 py-2;
+}
+
+.home_menu:hover{
+    @apply ring-2 ring-[#bb7d3c] text-sm bg-[#fff7f7] text-[#bb7d3c] border-none outline-none transition-transform ease-in-out duration-400 -translate-y-1;
+}
+
+.home_menu1{
+    @apply  px-6  py-2 bg-[#fff7f7] text-[#bb7d3c] text-sm shadow-sm;
+}
+
+.home_menu1:hover{
+    @apply  ring-2 ring-[#bb7d3c] text-[#bb7d3c] transition-transform ease-in-out duration-150 translate-x-1 -translate-y-1 ;
+}
+
+.numbers_theme{
+    @apply bg-[#bb7d3c] w-screen md:h-[120px] flex md:flex-row flex-col md:gap-0 gap-10 justify-between md:px-70 md:py-0 py-10  items-center text-[#fff7f7]
+}
+
+.num{
+    @apply text-4xl font-[finlandica] font-bold;
+}
+
+.theme{
+    @apply  px-10 text-lg font-semibold font-[Maharlika]
+}
+
+.abt{
+    @apply bg-[#fff7f7]
+}
+
+.abt_img{
+    @apply md:h-[400px] md:w-[600px] w-[280px] h-[215px] rounded-lg md:mx-0 mx-10 }
+
+ .abt-content{
+    @apply md:pr-36 md:pl-10 mt-10 pr-5 pl-5
+ }
+
+ .abt-text{
+    @apply md:text-4xl text-3xl font-[finlandica] font-semibold text-[#bb7d3c]
+ }
+
+ .abt-text-para{
+    @apply md:text-lg md:py-5  font-[Maharlika] py-5 
+ }  
+
+ .check-list{
+    @apply  py-3 flex flex-col gap-3 text-[#bb7d3c];
+ }
+
+ .check-list li{
+    @apply flex flex-row gap-4 items-center;
+ }
+
+ .img-container{
+    @apply md:px-20 px-0
+ }
+
+ .abt-quote{
+    @apply bg-no-repeat bg-cover overflow-hidden filter w-screen md:h-[300px] h-[180px] rounded-2xl shadow bg-center; 
+    background-image: url('abt-bg.webp');
+ }
+
+ .foods{
+    @apply w-screen md:h-[680px] h-fit bg-[#fff7f7] 
+ }
+
+ .food-text{
+    @apply py-16 md:mx-0 mx-3 flex flex-col justify-center items-center
+ }
+
+ .menu-list{
+    @apply flex md:flex-row flex-col md:justify-between gap-4 md:mx-50 mx-8 md:pb-0 pb-16
+ }
+
+ .footer{
+    @apply w-screen py-10 h-fit  bg-[#bb7d3c];
+ }
+
+ .menu-1{
+    @apply md:px-6 md:py-2 bg-[#bb7d3c] md:mt-3 text-[#fff7f7] text-sm shadow-sm px-4 py-2 flex flex-row gap-1;
+ }
+
+ .menu-1:hover{
+    @apply  ring-2 ring-[#bb7d3c] text-sm bg-[#fff7f7] text-[#bb7d3c] border-none outline-none transition-transform ease-in-out duration-400 -translate-y-1;
+ }

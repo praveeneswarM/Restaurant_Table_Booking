@@ -1,0 +1,18 @@
+@reference '../index.css';
+
+.nav_container{
+    @apply m-0 p-3 pb-1 fixed top-0 left-0 w-full flex flex-row justify-between bg-[#fff7f7] shadow-xl;
+}
+
+.nav_logo{
+    @apply w-[200px] h-[70px] md:ml-28 ml-0;
+}
+
+.nav_list{
+    @apply hidden md:flex flex-row gap-9 m-4 mr-28 text-[#bb7d3c] font-semibold text-[18px]
+}
+
+.mob_nav{
+     @apply absolute mt-18 left-0 w-full flex flex-col items-center gap-6 py-6 
+         bg-[#fff7f7] text-[#bb7d3c] font-semibold text-[18px] shadow-lg md:hidden;
+}
