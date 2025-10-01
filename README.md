@@ -33,7 +33,7 @@ Built with **React (Vite + Tailwind CSS)** on the frontend and **Spring Boot + M
 ---
 ## 📂 Project Structure
 
-  <img width="496" height="501" alt="image" src="https://github.com/user-attachments/assets/1f096721-6379-4fb0-86b3-606c3257a7fd" />
+  <img width="400" height="501" alt="image" src="https://github.com/user-attachments/assets/1f096721-6379-4fb0-86b3-606c3257a7fd" />
 
 
 ---
